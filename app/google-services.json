@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "217333494920",
+    "project_id": "tfgdam-f88a8",
+    "storage_bucket": "tfgdam-f88a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217333494920:android:f33a88de8fe7132958db3d",
+        "android_client_info": {
+          "package_name": "com.example.proyectodam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217333494920-inage5mh2uho5l6tbtkhmn6j5p8ugt58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA35KKMhsGBoevWGttWN3uO49SYnmSY2JU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217333494920-inage5mh2uho5l6tbtkhmn6j5p8ugt58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

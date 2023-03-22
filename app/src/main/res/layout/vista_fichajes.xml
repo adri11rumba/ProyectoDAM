@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+
+    >
+    <TextView
+
+        android:id="@+id/textViewTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIPO"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HORA"
+        android:textSize="20sp">>
+
+
+    </TextView>
+    <TextView
+        android:id="@+id/textViewDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIA"
+        android:textSize="20sp">>
+
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff" />
+
+</LinearLayout>
