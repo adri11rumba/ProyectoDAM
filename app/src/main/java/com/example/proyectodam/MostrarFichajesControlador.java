@@ -26,7 +26,7 @@ public class MostrarFichajesControlador extends AppCompatActivity {
         bd = FirebaseFirestore.getInstance();
         String DNI = getIntent().getExtras().getString("DNI_recogido");
 
-        Query query = bd.collection("REGISTROS DE LOS EMPLEADOS").whereEqualTo("DNI", DNI);
+        Query query = bd.collection("REGISTROS DE LOS EMPLEADOS").orderBy("DIA", Query.Direction.DESCENDING).whereEqualTo("DNI", DNI).limit(30);
 
         FirestoreRecyclerOptions<Empleado> firestoreRecyclerOptions = new FirestoreRecyclerOptions.Builder<Empleado>().setQuery(query,Empleado.class).build();
 

@@ -43,7 +43,7 @@ class MainActivity2 : AppCompatActivity()
             val bundle = intent.extras
             val DNI_1= bundle?.getString("DNI")
 
-            val dia = DateTimeFormatter.ofPattern("dd-MM-yyyy").format(LocalDate.now())
+            val dia = DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDate.now())
             val hora = DateTimeFormatter.ofPattern("HH:mm:ss").format(LocalTime.now())
             val nombre_documento ="$dia $hora"
             val registro = hashMapOf(
@@ -71,7 +71,7 @@ class MainActivity2 : AppCompatActivity()
             val DNI_1= bundle?.getString("DNI")
 
 
-            var dia = DateTimeFormatter.ofPattern("dd-MM-yyyy").format(LocalDate.now())
+            var dia = DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDate.now())
             var hora = DateTimeFormatter.ofPattern("HH:mm:ss").format(LocalTime.now())
             val nombre_documento = "$dia $hora"
 
